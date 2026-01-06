@@ -1,9 +1,11 @@
-
 {
   "name": "believers-gallery-backend",
   "version": "1.0.0",
   "scripts": {
     "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "express": "^4.19.2",
@@ -12,7 +14,6 @@
     "pg": "^8.11.5",
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
-     "multer": "^1.4.5-lts.1"
-
+    "multer": "^1.4.5-lts.1"
   }
 }
